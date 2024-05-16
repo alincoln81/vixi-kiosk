@@ -13,9 +13,11 @@
 }
 
 /* iFrame Settings --------------------------------------------------------------------- */
-#capture {
+#captureExp, #groovExp {
     min-width: 600px;
-    width: 50%;
+}
+#capture {
+    width: 70%;
     height: 80%;
 }
 /* Default Settings --------------------------------------------------------------------- */
@@ -143,28 +145,12 @@ footer a:hover {
         font-size: 1.5rem;
     }
 }
-@media only screen and (max-height:900px) {
+@media only screen and (max-height:1000px) {
+    #captureExp, #groovExp {
+        min-width: 500px;
+    }
     #capture {
-        width: 80%;
+        width: 60%;
         height: 80%;
-    }
-    .landscape-warning {
-        display: none;
-    }
-    .prod-logo {
-        width: auto;
-        max-height: 64px;
-    }
-    .appContainer {
-        height: 100%;
-    }
-    .rowOne {
-        height: 40%;
-    }
-    .rowTwo {
-        height: 60%;
-    }
-    .rowThree {
-        height: 90%;
     }
 }
