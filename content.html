@@ -1,0 +1,99 @@
+<div id="contentContainer" class="uk-text-center uk-flex uk-flex-middle uk-flex-center uk-container uk-container-large uk-padding-small uk-padding-remove-vertical">
+
+    <div class="appContainer" uk-grid>
+
+        <!-- INSTRUCTIONS  ==================================================== -->
+        <div id="instructions" class="uk-width-1-1 uk-flex uk-flex-bottom uk-flex-center">
+            <h2 class="uk-margin-large-bottom">Welcome to the VIKI KIOSK <br>Please choose an app below to get started</h2>
+        </div>
+
+        <!-- PHOTO MAGIC ====================================================== -->
+        <div id="captureSelect" class="uk-width-1-2@m">
+            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="./assets/images/photomagic.gif" uk-img>
+                <div class="experienceSelector uk-flex uk-flex-center uk-flex-middle" onclick="showCapture()">
+                    <h1 class="appName">PHOTO MAGIC</h1>
+                </div>
+            </div>
+        </div>
+        
+        <!-- GROOV ============================================================ -->
+        <div id="groovSelect" class="uk-width-1-2@m">
+            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="./assets/images/groovclip.gif" uk-img>
+                <div class="experienceSelector uk-flex uk-flex-center uk-flex-middle" onclick="showGroov()">
+                    <h1 class="appName">GROOV'</h1>
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- PHOTO MAGIC ====================================================== -->
+        <!-- Hidden to start -->
+        <div id="captureExp" class="submitContainer uk-width-1-1 uk-padding-remove">
+            <div>
+                <div class="uk-padding-small">
+                    <h2 class="appName">PHOTO MAGIC</h2>
+
+                </div>
+            </div>
+            <iframe src="https://fans.capture.vixi-dev.thefamousgroup.com/submissions?eventId=365ec014-40e3-4760-9895-066f701c53e6" name="iframe_a" id="capture" allow="camera"></iframe>
+            
+            <div>
+                <button onclick="showProcessing()" class="uk-margin-top uk-button uk-button-primary">Show Processing (temp)</button>
+            </div>
+            
+        </div>
+
+
+        <!-- GROOV ============================================================ -->
+        <!-- Hidden to start -->
+        <div id="groovExp" class="submitContainer uk-width-1-1 uk-padding-remove">
+            <div>
+                <div class="uk-padding-small">
+                    <h2 class="appName">GROOV'</h2>
+                </div>
+            </div>
+            <iframe src="https://fans.capture.vixi-dev.thefamousgroup.com/submissions?eventId=365ec014-40e3-4760-9895-066f701c53e6" name="iframe_a" id="capture" allow="camera"></iframe>
+            
+            <div>
+                <button onclick="showProcessing()" class="uk-margin-top uk-button uk-button-primary">Show Processing (temp)</button>
+            </div>
+            
+        </div>
+
+
+        <!-- PROCESSING  ====================================================== -->
+        <div id="processing" class="uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-padding-remove uk-flex-column">
+            <div>
+                <div class="uk-padding-small">
+                    <img src="./assets/images/loading.webp">
+                </div>
+                
+            </div>
+
+            <div>
+                <button onclick="showOutput()" class="uk-margin-top uk-button uk-button-primary">Show Result (temp)</button>
+            </div>
+            
+        </div>
+
+        <!-- RESULTS  ========================================================= -->
+        <div id="results" class="uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-padding-remove uk-flex-column">
+            <div>
+                <div class="uk-padding-small">
+                    <h2 class="appName">RESULT</h2>
+                    <p>A keepsake image has been shared with you via email as well.</p>
+                </div>
+                <img src="https://firebasestorage.googleapis.com/v0/b/vixi-capture-dev.appspot.com/o/images%2F1dd35140-7a02-4062-83d3-b195a0127033%2F810a57a9-6262-4b5e-94bf-845cf0f9e57c.jpg?alt=media&token=044a23dc-a41a-43c8-86b9-243a6566dc91">
+            </div>
+            
+            <div>
+                <button onclick="resetExperience()" class="uk-margin-top uk-button uk-button-primary">Restart</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+
+</div>

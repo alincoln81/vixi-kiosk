@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <!--<link rel="alternate" href="http://.com/" hreflang="en"/>-->
+    <title>TFG - Photo Magic</title>
+    <meta name="description" content="">
+    
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function() {
+            $("#includeHeader").load("header.html");
+            $("#includeContent").load("content.html");
+            $("#includeFooter").load("footer.html");
+        });
+    </script>
+
+    <noscript>This Website requires JavaScript to function properly</noscript>
+    
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+   
+    <script src="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" crossorigin="anonymous" type="text/css"></script>
+    <script src="https://kit.fontawesome.com/9aab0c4940.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/uikit/css/uikit.min.css" />
+    <script src="./assets/uikit/js/uikit.min.js"></script>
+    <script src="./assets/uikit/js/uikit-icons.min.js"></script>
+
+    <link href="./assets/styles/styles.css" type="text/css" rel="stylesheet">
+   
+    <script src="./assets/scripts/script.js" defer></script>
+  </head>
+
+  <body>
+
+    <header id="includeHeader"></header>
+
+    <main id="includeContent"></main>
+
+    <footer id="includeFooter"></footer>
+
+  </body>
+</html>
