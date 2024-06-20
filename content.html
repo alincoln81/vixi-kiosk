@@ -4,27 +4,8 @@
 
         <!-- INSTRUCTIONS  ==================================================== -->
         <div id="instructions" class="uk-width-1-1 uk-flex uk-flex-bottom uk-flex-center">
-            <h2 class="uk-margin-large-bottom">Welcome to the VIKI KIOSK <br>Please choose an app below to get started</h2>
+            <h2 class="uk-margin-large-bottom">Welcome to the VIKI KIOSK</h2>
         </div>
-
-        <!-- PHOTO MAGIC ====================================================== -->
-        <div id="captureSelect" class="uk-width-1-2@m">
-            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="./assets/images/photomagic.gif" uk-img>
-                <div class="experienceSelector uk-flex uk-flex-center uk-flex-middle" onclick="showCapture()">
-                    <h1 class="appName">PHOTO MAGIC</h1>
-                </div>
-            </div>
-        </div>
-        
-        <!-- GROOV ============================================================ -->
-        <div id="groovSelect" class="uk-width-1-2@m">
-            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="./assets/images/groovclip.gif" uk-img>
-                <div class="experienceSelector uk-flex uk-flex-center uk-flex-middle" onclick="showGroov()">
-                    <h1 class="appName">GROOV'</h1>
-                </div>
-            </div>
-        </div>
-    
 
         <!-- PHOTO MAGIC ====================================================== -->
         <!-- Hidden to start -->
@@ -32,63 +13,9 @@
             <div>
                 <div class="uk-padding-small">
                     <h2 class="appName">PHOTO MAGIC</h2>
-
                 </div>
             </div>
-            <iframe src="https://fans.capture.vixi-dev.thefamousgroup.com/submissions?eventId=365ec014-40e3-4760-9895-066f701c53e6&isLockedOrientation=true" name="iframe_a" id="capture" allow="camera"></iframe>
-            
-            <div>
-                <button onclick="showProcessing()" class="uk-margin-top uk-button uk-button-primary">Show Processing (temp)</button>
-            </div>
-            
-        </div>
-
-
-        <!-- GROOV ============================================================ -->
-        <!-- Hidden to start -->
-        <div id="groovExp" class="submitContainer uk-width-1-1 uk-padding-remove">
-            <div>
-                <div class="uk-padding-small">
-                    <h2 class="appName">GROOV'</h2>
-                </div>
-            </div>
-            <iframe src="https://fans.capture.vixi-dev.thefamousgroup.com/submissions?eventId=365ec014-40e3-4760-9895-066f701c53e6&isLockedOrientation=true" name="iframe_a" id="capture" allow="camera"></iframe>
-            
-            <div>
-                <button onclick="showProcessing()" class="uk-margin-top uk-button uk-button-primary">Show Processing (temp)</button>
-            </div>
-            
-        </div>
-
-
-        <!-- PROCESSING  ====================================================== -->
-        <div id="processing" class="uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-padding-remove uk-flex-column">
-            <div>
-                <div class="uk-padding-small">
-                    <img src="./assets/images/loading.webp">
-                </div>
-                
-            </div>
-
-            <div>
-                <button onclick="showOutput()" class="uk-margin-top uk-button uk-button-primary">Show Result (temp)</button>
-            </div>
-            
-        </div>
-
-        <!-- RESULTS  ========================================================= -->
-        <div id="results" class="uk-width-1-1 uk-flex uk-flex-center uk-flex-middle uk-padding-remove uk-flex-column">
-            <div>
-                <div class="uk-padding-small">
-                    <h2 class="appName">RESULT</h2>
-                    <p>A keepsake image has been shared with you via email as well.</p>
-                </div>
-                <img id="aiResult" src="">
-            </div>
-            
-            <div>
-                <button onclick="resetExperience()" class="uk-margin-top uk-button uk-button-primary">Restart</button>
-            </div>
+            <iframe src="https://fans.capture.vixi.thefamousgroup.com/submissions?eventId=6cdaf206-e677-49d9-8c2b-f460f1faccdf&isLockedOrientation=true" name="iframe_a" id="capture" allow="camera"></iframe>
             
         </div>
 

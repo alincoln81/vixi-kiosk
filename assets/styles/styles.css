@@ -84,9 +84,6 @@ header #logo img {
 .experienceSelector:hover {
     opacity: 0.8;
 }
-#groovExp, #captureExp, #processing, #results {
-    display: none;
-}
 
 .appContainer img {
     max-height: 400px;
