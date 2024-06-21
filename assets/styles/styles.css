@@ -14,11 +14,12 @@
 
 /* iFrame Settings --------------------------------------------------------------------- */
 #captureExp, #groovExp {
-    min-width: 600px;
+    width: 600px;
+    height: 900px;
 }
 #capture {
-    width: 70%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 /* Default Settings --------------------------------------------------------------------- */
 html {
@@ -139,17 +140,4 @@ footer a:hover {
     font-size: 1.5rem;
 }
 /* Media -------------------------------------------------------------------------------- */
-@media only screen and (max-width:959px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-}
-@media only screen and (max-height:1000px) {
-    #captureExp, #groovExp {
-        min-width: 500px;
-    }
-    #capture {
-        width: 60%;
-        height: 80%;
-    }
-}
+
