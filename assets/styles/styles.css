@@ -34,7 +34,7 @@ body {
     width: 100%;
     color:rgb(255, 255, 255);
     background-color: #1b1b1b;
-    background-image: url("../images/bg2.png");
+    background-image: url("../images/Vixi BG3_Pin.png");
     background-repeat: repeat;
     position: relative;
     z-index: -20;
@@ -115,6 +115,7 @@ footer {
     max-width: 1920px;
     position: relative;
     bottom: 0px;
+    background-color: #1b1b1b;
 }
 footer img {
     max-width: 300px;
@@ -132,7 +133,7 @@ footer a:hover {
     text-decoration: none;
 }
 #footer {
-    padding-bottom: 20px;
+    padding: 10px 0;
 }
 #socialLinks i, span {
     padding: 0 10px 0 0;
