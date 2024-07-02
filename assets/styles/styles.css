@@ -15,11 +15,11 @@
 /* iFrame Settings --------------------------------------------------------------------- */
 #captureExp, #groovExp {
     width: 500px;
-    height: 800px;
+    height: 1200px;
 }
 #capture {
     width: 80%;
-    height: 80%;
+    height: 100%;
 }
 /* Default Settings --------------------------------------------------------------------- */
 html {
